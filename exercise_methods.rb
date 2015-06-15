@@ -16,9 +16,7 @@ end
 ##(1)##
 
 def add(number_one, number_two)
-
-#	Put some code in here!
-
+  return number_one + number_two
 end
 
 assert_true( add(7,4) == 11 )
@@ -27,9 +25,7 @@ assert_true( add(7,4) == 11 )
 ##(2)##
 
 def subtract(number_one, number_two)
-
-#	Put some code in here!
-
+  return number_one - number_two
 end
 
 assert_true( subtract(7,4) == 3)
@@ -38,9 +34,7 @@ assert_true( subtract(7,4) == 3)
 ##(3)##
 
 def make_all_caps(text)
-
-#	Put some code in here!
-
+  return text.upcase
 end
 
 assert_true( make_all_caps("i literally cant even") == "I LITERALLY CANT EVEN" )
@@ -49,9 +43,7 @@ assert_true( make_all_caps("i literally cant even") == "I LITERALLY CANT EVEN" )
 ##(4)##
 
 def reverse(text)
-
-#	Put some code in here!
-
+  return text.reverse
 end
 
 assert_true( reverse("straw") == "warts" )
@@ -60,9 +52,7 @@ assert_true( reverse("straw") == "warts" )
 ##(5)##
 
 def joltiply(integer_one, integer_two)
-
-#	Put some code in here!
-
+  return (integer_one * 3) - integer_two
 end
 
 assert_true( joltiply(11,3) == 30 )
@@ -74,9 +64,7 @@ assert_true( joltiply(3,1) == 8 )
 ##(6)##
 
 def surround_with_curly_brackets(text)
-
-#	Put some code in here!
-
+  return "{#{text}}"
 end
 
 assert_true( surround_with_curly_brackets("I'm surrounded by handlebar mustaches") == "{I'm surrounded by handlebar mustaches}" )
